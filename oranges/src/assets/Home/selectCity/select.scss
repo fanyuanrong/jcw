@@ -1,0 +1,64 @@
+.selectCity-block {
+    padding: .26rem .76rem 0 .3rem;
+    .selectCity-title {
+        font-size: .24rem;
+        font-weight: 400;
+        color: #999;
+        display: flex;
+        height: .53rem;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-bottom: .1rem;
+        text-align: left;
+    }
+    .city-block__con__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        .city-block__con__item {
+            width: 1.99rem;
+            height: .7rem;
+            border: 1px solid #ebebeb;
+            background-color: #fefefe;
+            border-radius: .07rem;
+            display: flex;
+            -webkit-box-align: center;
+            justify-content: center;
+            font-size: .26rem;
+            color: #232323;
+            margin-right: .15rem;
+            align-items: center;
+        }
+    }
+}
+.city-block__con__wrap-s {
+
+}
+.selectCity-Sorted_item {
+    height: 1rem;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: .26rem;
+    color: #232323;
+    border-bottom: 1px solid #ebebeb;
+}
+.city-nav {
+    position: fixed;
+    right: .2rem;
+    top: 2.4rem;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    z-index: 1;
+    .city-nav__lab {
+        font-size: .24rem;
+        color: #666;
+        margin-bottom: .03rem;
+        width: 100%;
+        text-align: center;
+    }
+}

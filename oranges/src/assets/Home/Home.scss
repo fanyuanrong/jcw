@@ -1,0 +1,86 @@
+.Header {
+    position:  fixed;
+    height: 1.17333rem;
+    width: 100%;
+    padding: 0 .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999999;
+    .home-location {
+        width: 1.56rem;
+        height: .74667rem;
+        padding: 0;
+        border-radius: .46667rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        align-items: center;
+        background-color: rgba(0,0,0,.3);
+        border: 1px solid hsla(0,0%,88%,.3);
+        position: relative;
+        .iconfont {
+            padding: 0 !important;
+        }
+        .icon-dingwei {
+            position: absolute;
+            width: .29333rem;
+            height: .34667rem;
+            left: 0;
+            top: 0rem;
+            color: #fff;
+            font-size: .4rem;
+        }
+        span {
+            display: inline-block;
+            width: .86667rem;
+            font-size: .4rem;
+            color: #fefefe;
+            font-weight: 700;
+            margin-left: .08rem;
+            margin-top: .03rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+    }
+    .home-search {
+        align-items: center;
+        border: 1px solid hsla(0,0%,88%,.2);
+        background-color: rgba(0,0,0,.2);
+        border-radius: .53333rem;
+        margin-left: .0 8rem;
+        display: flex;
+        -webkit-box-align: center;
+        width: 6.34667rem;
+        height: .74667rem;
+        color: #fff;
+        img {
+            width: .4rem;
+            height: .4rem;
+            margin-left: .22rem;
+            margin-right: .1rem;
+        }
+    }
+
+}
+#header-active {
+    background-color: #fefefe;
+    border-bottom: 1px solid #ebebeb;
+    box-shadow: -0.05333rem 0 0.12rem 1px rgba(35,35,35,.12);
+    .home-location {
+        background: #fff;
+        border: 1px solid #fff;
+        .icon-dingwei {
+            color: orangered; 
+        }
+        span {
+            color: #232323;
+        }
+    }
+    .home-search {
+        color: #b3b3b3;
+        background: #f5f5f5;
+        border-color: #ebebeb;
+    }
+}

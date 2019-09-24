@@ -1,0 +1,105 @@
+    .hot_venue{
+        margin-bottom: .53333rem;
+        padding-left: .4rem;
+    }
+    .hot_venue__h3 {
+        height: .46rem;
+        line-height: .46rem;
+        font-weight: 700;
+        color: #232323;
+        font-size: .53333rem;
+        float: left;
+    }
+    .hot_block__lab_a{
+        width: .53333rem;
+        height: .53333rem;
+        margin-right: .26667rem;
+        float: right;
+        img {
+            border: none;
+            border-color: transparent;
+            vertical-align: middle;
+            width: 100%;
+            height: 100%;
+        }
+    }   
+    .hot_venue__wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+    /*引入的swiper*/
+    .hot_venue__block{
+        margin-top: .53333rem;
+    }
+    .swiper_slide_active_hotvenue{
+        width: 6.77333rem !important;
+        margin-right: 20px;
+        height: 7.92rem;
+        border-radius: .10667rem;
+        border: 1px solid #ebebeb;
+        padding: .53333rem .45333rem;
+        box-sizing: border-box;
+    }
+    .hot_venue_block_info{
+        height: 1.36rem;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .hot_venue_swiper_top_img{   
+        width: 1.33333rem;
+        height: 1.33333rem;
+        border-radius: .10667rem;
+        border: 0.02rem solid #ebebeb;
+    }
+    .hot_venue_swiper_top_img img{
+        width: 100%;
+        height: 100%;
+    }
+    .hot_top_cente{
+        width: 3.33333rem;
+    }
+    .hot_venue_center{
+        width: 2rem;
+    }
+    .hot_venue_swiper_top_i{
+        font-size: 0.3rem;
+    }
+    .hot_venue_botton{
+        display: flex;
+        justify-content: space-between;
+        margin-top: .46667rem;
+        font-size: 0.3rem;
+        border-top: 0.05rem #f5f5f5 solid;
+    }
+    .hot_venue_botton_p{
+        width: 2.85333rem;
+        height: 3.89333rem;
+        border-radius: .10667rem;
+        border: 1px solid #ebebeb;
+        overflow: hidden;
+    }
+    .hot_venue_botton_nav{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .hot_venue_botton_nav img{
+        border: none;
+        border-color: transparent;
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+    }
+    .hot_venue_swiper_top_h{
+        margin-top: .06667rem;
+        font-size: .45333rem;
+        color: #232323;
+        height: .6rem;
+        width: 3.4rem;
+        line-height: .6rem;
+        font-weight: 700;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
