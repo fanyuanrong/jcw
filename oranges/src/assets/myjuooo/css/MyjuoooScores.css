@@ -1,0 +1,37 @@
+.Scores_top{
+    height: 1.867rem;
+    background-color: #ffffff;
+    position: relative;
+}
+.Scores_num{
+    display: inline-block;
+    font-size: 0.693rem;
+    margin: 0.427rem 4.8rem;
+}
+.Scores_jf{
+    display: inline-block;
+    font-size: 0.32rem;
+    position: absolute;
+    top: 0.693rem;
+    right: 0.133rem;
+}
+.Scores_center{
+    height: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.027rem solid #e7e7e7;
+    margin-bottom: 0.267rem;
+}
+.Scores_center_change{
+    width: 50%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    font-size: 0.373rem;
+    color: #666666;
+    background-color: #ffffff;
+}
+.Scores_bottom{
+    height: 13rem;
+    background-color: #ffffff;
+}

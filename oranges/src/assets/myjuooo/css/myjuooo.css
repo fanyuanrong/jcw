@@ -124,9 +124,6 @@ body{
     text-align: center;
     font-size: 12px;
     font-weight: 500;
-}
-.MyjuoooMine a {
-    /*四小块文字是个链接*/
     color: #666;
 }
 .myjuooo_btm_msg p{
@@ -188,8 +185,9 @@ body{
     height: 16px;
     width: 100%;
     color: #ff6743;
+
 }
-.myjuooo_my_msg a {
+.myjuooo_my_msg_all {
     /*客服文字*/
     color: #232323;
 }

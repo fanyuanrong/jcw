@@ -6,10 +6,12 @@ export default class MyjuoooMy extends React.Component {
     }
     render() {
         return (
-            <div className="myjuooo_my">
-                <img src={this.props.src}/>
-                <div className="myjuooo_my_msg"><NavLink to={this.props.to}>{this.props.msg}</NavLink></div>
-            </div>
+            <NavLink to={this.props.to}>
+                <div className="myjuooo_my">
+                    <img src={this.props.src}/>
+                    <div className="myjuooo_my_msg_all">{this.props.msg}</div>
+                </div>
+            </NavLink>
         )
     }
 }

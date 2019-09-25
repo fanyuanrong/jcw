@@ -8,10 +8,12 @@ export default class MyjuoooMine extends React.Component {
 
     render() {
         return (
-            <div className="myjuooo_btm">
-                <span className="myjuooo_btm_num">0</span>
-                <div className="MyjuoooMine"><NavLink to={this.props.to}>{this.props.msg}</NavLink></div>
-            </div>
+            <NavLink to={this.props.to}>
+                <div className="myjuooo_btm">
+                    <span className="myjuooo_btm_num">0</span>
+                    <div className="MyjuoooMine">{this.props.msg}</div>
+                </div>
+            </NavLink>
         )
     }
 }
