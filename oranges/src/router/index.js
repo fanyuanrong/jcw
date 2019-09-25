@@ -31,6 +31,8 @@ import SetPassword from '../views/LoginG/SetPassword.js'
 
 //演出
 import Vocalconcert from '../components/Show/Vocal_concert'
+//日历
+import Calendar from '../components/Calendar'
 //搜索
 import Search from "../views/search"
 //vip+会员
@@ -325,8 +327,19 @@ export default[
             isLogin: false,
         }
     },
-    {
-        path:'/show/showsLibrary',
+    {//搜索页面
+        to:'/search/index',
+        path:'/search/index',
+        context:'搜索',
+        component:Search,
+        meta:{
+            title:'搜索',
+            isButton:false,
+            isLogin:false
+        }
+    },
+    {//演唱会
+        path:'/show/showsLibrary/:id',
         context:'演唱会',
         component:Vocalconcert,
         exact:true,
@@ -336,13 +349,13 @@ export default[
             isLogin:false
         }
     },
-    {//搜索页面
-        to:'/search/index',
-        path:'/search/index',
-        context:'搜索',
-        component:Search,
+    {//演出
+        path:'/calendar/index/:id',
+        context:'日历',
+        component:Calendar,
+        exact:true,
         meta:{
-            title:'搜索',
+            title:'日历',
             isButton:false,
             isLogin:false
         }

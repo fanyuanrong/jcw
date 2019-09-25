@@ -18,10 +18,10 @@ import homeCreator from '../../store/actionCreator/Home';//首页的数据请求
                         <div className={"lable-item"}>
                             {
                                 classifyHome.classify_list.map((v,i)=>{
-                                    const str = v.url.replace('https://m.juooo.com/show/showsLibrary?',"")
+                                    const str = v.url.replace('https://m.juooo.com/show/showsLibrary?cid=0&caid=',"")
                                     return(
                                     <div key={i} className={"label-item__block"}>
-                                        <NavLink   className={"label-item__block__column"} to={"/show/showsLibrary?"+str}>
+                                        <NavLink   className={"label-item__block__column"} to={"/show/showsLibrary/"+str}>
                                             <img src={v.pic} ait=""/>
                                             <span>{v.name}</span>
                                         </NavLink>
@@ -67,7 +67,7 @@ import homeCreator from '../../store/actionCreator/Home';//首页的数据请求
                                     </NavLink>
                                 </li>
                                 <li className={'operation__item'}>
-                                    <NavLink to={'/calendar/index'} className={'operation__item__block2'}>
+                                    <NavLink to={'/calendar/index/0'} className={'operation__item__block2'}>
                                         <div>
                                             <h3 className={'operation__item__block__title'}>{classifyHome.operation_list[3].name}</h3>
                                             <p dangerouslySetInnerHTML={{__html:classifyHome.operation_list[3].describe }}></p>
